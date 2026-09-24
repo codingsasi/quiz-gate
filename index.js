@@ -105,7 +105,7 @@ const server = http.createServer((req, res) => {
               body: new URLSearchParams(new FormData(form)),
             });
             if (!response.ok) throw new Error('Confirmation failed');
-            status.textContent = 'Copied and recorded. The password is still shown above.';
+            status.textContent = 'Copied password.';
           } catch {
             status.textContent = 'Could not copy. Select and copy the password manually.';
           }
