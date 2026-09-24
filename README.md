@@ -6,7 +6,7 @@ Add the password in the `.env` file. See `.env.example` for the required variabl
 Make sure a csv file exists with student details. First line should be column names.
 Exmaple
 
-```
+```csv
 email,student_id
 asasidharan@algomau.ca,514xxxx
 .
